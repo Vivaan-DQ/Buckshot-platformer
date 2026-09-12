@@ -43,9 +43,9 @@ class Game:
                 return os.path.join(assets_dir, rel_path)
 
             #Character sprites
-            self.sprite_manager.load("player", asset(os.path.join("sprites", "player.png")))
-            self.sprite_manager.load("enemy", asset(os.path.join("sprites", "enemy.png")))
-            self.sprite_manager.load("npc", asset(os.path.join("sprites", "npc.png")))
+            self.sprite_manager.load("player", asset(os.path.join("Sprites", "player.png")))
+            self.sprite_manager.load("enemy", asset(os.path.join("Sprites", "enemy.png")))
+            self.sprite_manager.load("npc", asset(os.path.join("Sprites", "npc.png")))
 
             # Enemy single-swap animation sprites
             self.sprite_manager.load("enemy_taking_damage", asset(os.path.join("Sprites", "enemy_taking_damage.png")))
@@ -54,9 +54,9 @@ class Game:
 
 
             # House/rulebook UI
-            self.sprite_manager.load("door_text", asset(os.path.join("sprites", "door_text.png")))
-            self.sprite_manager.load("rulebook", asset(os.path.join("sprites", "rulebook.png")))
-            self.sprite_manager.load("rulebook_ui", asset(os.path.join("sprites", "rulebook_ui.png")))
+            self.sprite_manager.load("door_text", asset(os.path.join("Sprites", "door_text.png")))
+            self.sprite_manager.load("rulebook", asset(os.path.join("Sprites", "rulebook.png")))
+            self.sprite_manager.load("rulebook_ui", asset(os.path.join("Sprites", "rulebook_ui.png")))
 
             # Backgrounds
             self.sprite_manager.load("street_bg", asset(os.path.join("Backgrounds", "street.png")))
@@ -84,7 +84,7 @@ class Game:
             self.fading = False
             self.fade_speed = 5 #Controls speed of the fade, create reference for later.
             # NPC proximity dialogue sprite (load once)
-            self.sprite_manager.load("dialogue_box", asset(os.path.join("sprites", "dialogue_box.png")))
+            self.sprite_manager.load("dialogue_box", asset(os.path.join("Sprites", "dialogue_box.png")))
             self.dialogue = DialogueBox(self.sprite_manager)
 
             self.street_floor = 650

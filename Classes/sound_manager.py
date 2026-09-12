@@ -16,10 +16,10 @@ class SoundManager:
             return os.path.join(sounds_dir, filename)
 
         # Load sound effects
-        self.shotgun = pygame.mixer.Sound(sound("shotgun_sfx.wav"))
-        self.shotgun_blank = pygame.mixer.Sound(sound("shotgun_blank_sfx.wav"))
-        self.street_ambience = pygame.mixer.Sound(sound("street_ambience_sfx.wav"))
-        self.walking = pygame.mixer.Sound(sound("walking_sfx.wav"))
+        self.shotgun = pygame.mixer.Sound(sound("shotgun_sfx.ogg"))
+        self.shotgun_blank = pygame.mixer.Sound(sound("shotgun_blank_sfx.ogg"))
+        self.street_ambience = pygame.mixer.Sound(sound("street_ambience_sfx.ogg"))
+        self.walking = pygame.mixer.Sound(sound("walking_sfx.ogg"))
 
         self.street_ambience.set_volume(0.15)
         self.walking.set_volume(0.8)
@@ -28,7 +28,7 @@ class SoundManager:
         self._current_music = None
 
         # Music file paths
-        self._music = {"start_menu": sound("start_menu_music.wav"), "end_menu": sound("end_menu_music.wav")}
+        self._music = {"start_menu": sound("start_menu_music.ogg"), "end_menu": sound("end_menu_music.ogg")}
 
     #Function essentailly plays the loaded in sfx.
     def play_sfx(self, name):
