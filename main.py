@@ -39,7 +39,7 @@ while running:
 
     #Because earlier we made the draw function in the game class draw everything, we only need one command, instead of individual commands for each class.
     game.draw(screen)
-
+    
     pygame.display.update()
 
 pygame.quit()
