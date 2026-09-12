@@ -109,4 +109,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-*Made by Techbar Studios. A fan-made homage to Buckshot Roulette — not affiliated with the original game.*
+*Made by Techbar Studios (My old minecraft username, this isn't an actual studio lol). A fan-made homage to Buckshot Roulette — not affiliated with the original game.*
+
+TLDR: Buckshot roulette platformer, works on both windows and mac, made in python enjoy 😄
