@@ -3,7 +3,7 @@
 *This is a simplified version of the popular game known as Buckshot Roulette. I took heavy inspiration from the game and this was used m submission for my very first project for software engineering in school!
 
 
-## 🎮 About
+## About
 
 *Buckshot Platformer* is a high-stakes gambling game where players are placed in a roulette scenario (Russian roulette, hint hint) and make the choices on whether to shoot the enemy, or run this risk (I had to name it run this risk instead of shoot self for obvious reasons, after all it was a school project).
 
@@ -18,7 +18,7 @@ Every design decision, every line of code, every questionable life choice in thi
 - **Battle log** — so that even if you're trying to play this in class, at least you don't need the volume lol.
 - **Player & enemy health bars** — otherwise you wouldn't really know when someone is about to die, and that would be quite disfuctional to say the least...
 
-## 🕹️ Controls
+## Controls
 
 | Key | Action |
 | --- | --- |
@@ -30,9 +30,9 @@ Every design decision, every line of code, every questionable life choice in thi
 | `G` | **Run the Risk** — intentionally harms you, but grants an extra turn. Use at your own risk... obviously |
 | `ESC` | Exit the rulebook |
 
-## 🚀 Getting Started
+## Getting Started
 
-### Prerequisites
+### Prerequisites (Stuff you need for the game to work)
 
 - Python 3.x installed on your machine
 
@@ -59,7 +59,7 @@ python main.py
 
 > ⚠️ Replace `main.py` with the actual entry-point file name of your project.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Title Screen
 
@@ -77,14 +77,14 @@ python main.py
 
 ![Rulebook](screenshots/rulebook.png)
 
-## 🎨 A Note on the Art (Full Transparency)
+## AI Claim
 
 **All code, game design, and suffering: 100% human-made (me).**
 **Most/all sprites and artwork: AI-generated.**
 
 As mentioned earlier, I am no artist, most of the images were made by AI, except for the rulebook, that was like the only sprite i made one canva and i am quite proud of it.
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```javascript
 buckshot-platformer/
@@ -94,17 +94,17 @@ buckshot-platformer/
 └── README.md
 ```
 
-## 🛠️ Built With
+## Built With
 
 - **Python** — core game logic
 - **Pygame** — rendering, input handling, and all things game-y *(installed via pip)*
 - **`os` & `random`** — Python's standard library, for file paths and a healthy dose of chaos (respectively)
 
-## 🤝 Contributing
+## Contributing (Me, Myself and I lol)
 
 Contributions, issues, and feature requests are welcome! Feel free to fork the project and submit a pull request.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License, open source feel free to use it *and run the risk... (no pun intended)
 
