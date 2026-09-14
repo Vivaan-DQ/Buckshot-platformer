@@ -1,6 +1,6 @@
 # Buckshot Platformer
 
-*This is a simplified version of the popular game known as Buckshot Roulette. I took heavy inspiration from the game and this was used m submission for my very first project for software engineering in school!
+*This is a simplified version of the popular game known as Buckshot Roulette. I took heavy inspiration from the game and this was used my submission for my very first project for software engineering in school!
 
 
 ## About
