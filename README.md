@@ -1,21 +1,22 @@
 # Buckshot Platformer
 
-*A simplified platformer take on **Buckshot Roulette** — built from scratch in Python by one very determined non-artist.*
+*This is a simplified version of the popular game known as Buckshot Roulette. I took heavy inspiration from the game and this was used m submission for my very first project for software engineering in school!
+
 
 ## 🎮 About
 
-*Buckshot Platformer* (title screen name: **Buckshot, Reimagined**) drags the tense, high-stakes gamble of Buckshot Roulette into a 2D pixel-art world. Explore a moody night-time cityscape, face off against a shotgun-wielding nightmare fuel of an enemy, and make choices like *"SHOOT ENEMY"* or *"RUN THE RISK??"* — because apparently regular combat wasn't stressful enough.
+*Buckshot Platformer* is a high-stakes gambling game where players are placed in a roulette scenario (Russian roulette, hint hint) and make the choices on whether to shoot the enemy, or run this risk (I had to name it run this risk instead of shoot self for obvious reasons, after all it was a school project).
 
-Every design decision, every line of code, every questionable life choice in this project was made by me. The only AI involvement? The sprites — because I am many things, but an artist is not one of them. 🎨❌
+Every design decision, every line of code, every questionable life choice in this project was made by me. However, I am no artist, and my stick figures prove insufficient for such a project, and hence i had to resort to AI use for making sprites (I know its a lame thing to do, but my game had to at least look good otherwise you guys wouldn't have played it 😔)
 
-## ✨ Features
+## Features
 
-- **2D platforming movement** — run through atmospheric, pixel-art night scenes
-- **Turn-based shotgun combat** — face the enemy across the table with live and blank rounds ("5 LEFT"... but *which* 5?)
-- **The Risk Action** — a dangerous move that deliberately harms YOU, but grants an extra turn. High risk, questionable reward
-- **In-game rulebook** — press a key and the whole manual opens up in a fancy book. Fancy!
-- **Battle log** — because every near-death experience deserves a paper trail
-- **Player & enemy health bars** — watch your life flash before your eyes in convenient green-bar form
+- **2D platforming movement** - simple introductory scenes leading up to a boss fight.
+- **Turn-based shotgun combat** - You'll have to play the game to know how that works...
+- **The Risk Action** — a dangerous move that deliberately *Runs the risk, but grants an extra turn. High risk, high reward and if you're that kind of player, i respect that.
+- **In-game rulebook** — Inspitred by the general lease of liablity in the actual game that the player is made to sign.
+- **Battle log** — so that even if you're trying to play this in class, at least you don't need the volume lol.
+- **Player & enemy health bars** — otherwise you wouldn't really know when someone is about to die, and that would be quite disfuctional to say the least...
 
 ## 🕹️ Controls
 
@@ -81,7 +82,7 @@ python main.py
 **All code, game design, and suffering: 100% human-made (me).**
 **Most/all sprites and artwork: AI-generated.**
 
-I want to be completely upfront about this — I made this entire game myself, but since my artistic ability peaked at stick figures, the visuals were generated with AI. The gameplay, mechanics, code, and every decision behind them are all mine. Consider the AI my unpaid art intern. 🤖🖌️
+As mentioned earlier, I am no artist, most of the images were made by AI, except for the rulebook, that was like the only sprite i made one canva and i am quite proud of it.
 
 ## 🗂️ Project Structure
 
@@ -105,7 +106,9 @@ Contributions, issues, and feature requests are welcome! Feel free to fork the p
 
 ## 📜 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License, open source feel free to use it *and run the risk... (no pun intended)
+
+(It was definitely intended)
 
 ---
 
